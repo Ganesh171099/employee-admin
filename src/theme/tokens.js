@@ -1,0 +1,51 @@
+export const tokens = {
+  colors: {
+    black: '#0A0A0A',
+    nearBlack: '#141414',
+    charcoal: '#1F1F1F',
+    graphite: '#2A2A2A',
+    slate: '#4A4A4A',
+    muted: '#6B6B6B',
+    softGray: '#9A9A9A',
+    border: '#E5E5E5',
+    borderStrong: '#D0D0D0',
+    surface: '#FFFFFF',
+    surfaceAlt: '#F7F7F7',
+    surfaceMuted: '#F0F0F0',
+    white: '#FFFFFF',
+    success: '#1A1A1A',
+    warning: '#3D3D3D',
+    error: '#111111',
+    info: '#2C2C2C',
+  },
+  radii: {
+    xs: 4,
+    sm: 6,
+    md: 10,
+    lg: 14,
+    xl: 20,
+  },
+  shadows: {
+    soft: '0 1px 2px rgba(0,0,0,0.04), 0 8px 24px rgba(0,0,0,0.06)',
+    medium: '0 2px 8px rgba(0,0,0,0.08), 0 16px 40px rgba(0,0,0,0.08)',
+    focus: '0 0 0 3px rgba(10,10,10,0.12)',
+  },
+  spacing: {
+    page: 28,
+    section: 24,
+    card: 20,
+  },
+  layout: {
+    sidebarWidth: 260,
+    sidebarCollapsed: 80,
+    headerHeight: 72,
+  },
+  motion: {
+    fast: 0.18,
+    normal: 0.28,
+    slow: 0.45,
+  },
+  typography: {
+    fontFamily: '"Space Grotesk", "Segoe UI", sans-serif',
+  },
+};
