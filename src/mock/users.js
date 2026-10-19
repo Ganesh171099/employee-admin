@@ -7,12 +7,12 @@ export const demoCredentials = {
 
 export const mockSuperAdmin = {
   id: 'sa-001',
-  name: 'Avery Morgan',
+  name: 'Mark',
   email: demoCredentials.email,
   role: ROLES.SUPER_ADMIN,
   title: 'Platform Super Admin',
-  avatarInitials: 'AM',
-  phone: '+1 (415) 555-0142',
+  avatarInitials: 'M',
+  phone: '+91 98765 43210',
   timezone: 'America/Los_Angeles',
   lastLoginAt: '2026-10-17T08:12:00.000Z',
 };
