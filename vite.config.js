@@ -15,4 +15,5 @@ export default defineConfig({
   resolve: {
     dedupe: ['@emotion/react', '@emotion/styled', 'react', 'react-dom'],
   },
+  base: '/employee-admin/',
 });
